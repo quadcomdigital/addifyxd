@@ -302,7 +302,7 @@ msgstr ""
 #: front/templates/refresh-ajax-product-registry-at-buyer-side.php:216
 #: front/templates/addf-gift-registry-public-int.php:282
 msgid "Add Message"
-msgstr ""
+msgstr "Aggiungi messaggio"
 
 #: front/class-gift-registry-front.php:498
 msgid "Add message"
@@ -320,7 +320,7 @@ msgstr ""
 #: front/templates/refresh-ajax-product-registry-at-buyer-side.php:227
 #: front/templates/addf-gift-registry-public-int.php:293
 msgid "Add to Cart"
-msgstr ""
+msgstr "Aggiungi al carrello"
 
 #: gift-registry.php:1101 front/class-gift-registry-front.php:409
 msgid "Add to Gift Registry"
@@ -370,7 +370,7 @@ msgstr ""
 
 #: front/templates/addf-gift-registry-public-int.php:329
 msgid "Bulk Add to Cart"
-msgstr ""
+msgstr "Aggiungi selezionati al carrello"
 
 #: admin/class-gift-registry-admin.php:193
 msgid "Button Customization"
@@ -620,7 +620,7 @@ msgstr ""
 #: front/templates/addf-gift-registry-creater.php:680
 #: front/templates/refresh-ajax-product-list.php:15
 msgid "Desired Quantity"
-msgstr ""
+msgstr "Quantita desiderata"
 
 #: front/templates/addf-gift-registry-creater.php:648
 msgid "Edit"
@@ -904,7 +904,7 @@ msgstr ""
 #: front/templates/refresh-ajax-product-registry-at-buyer-side.php:19
 #: front/templates/addf-gift-registry-public-int.php:85
 msgid "No of Qty"
-msgstr ""
+msgstr "Numero quantita"
 
 #: admin/class-gift-registry-admin.php:1284
 #: admin/class-gift-registry-admin.php:1293
@@ -916,7 +916,7 @@ msgstr ""
 #: front/templates/gift-registry-table.php:910
 #: front/templates/addf-gift-registry-creater.php:863
 msgid "No product to show"
-msgstr ""
+msgstr "Nessun prodotto da mostrare"
 
 #: admin/class-gift-registry-admin.php:150
 msgid "Not Defined"
@@ -1002,7 +1002,7 @@ msgstr ""
 #: front/templates/refresh-ajax-product-registry-at-buyer-side.php:236
 #: front/templates/addf-gift-registry-public-int.php:302
 msgid "Product purchased"
-msgstr ""
+msgstr "Prodotto acquistato"
 
 #: admin/class-gift-registry-admin.php:800
 msgid "products"
@@ -1022,7 +1022,75 @@ msgstr ""
 #: front/templates/refresh-ajax-product-registry-at-buyer-side.php:16
 #: front/templates/addf-gift-registry-public-int.php:82
 msgid "Received Quantity"
-msgstr ""
+msgstr "Quantita ricevuta"
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:92
+msgid "Purchased"
+msgstr "Acquistato"
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:94
+msgid "Available"
+msgstr "Disponibile"
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:132
+msgid "Desired"
+msgstr "Desiderata"
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:133
+msgid "Received"
+msgstr "Ricevuta"
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:134
+msgid "Remaining"
+msgstr "Rimanente"
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:143
+msgid "Qty"
+msgstr "Qta"
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:163
+msgid "Select for bulk add"
+msgstr "Seleziona per aggiunta multipla"
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:144
+msgid "Quantity to add to cart"
+msgstr "Quantita da aggiungere al carrello"
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:151
+msgid "Edit greeting message"
+msgstr "Modifica messaggio di auguri"
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:152
+msgid "Delete greeting message"
+msgstr "Elimina messaggio di auguri"
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:155
+msgid "Add greeting message"
+msgstr "Aggiungi messaggio di auguri"
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:160
+msgid "Add this product to cart"
+msgstr "Aggiungi questo prodotto al carrello"
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:162
+msgid "Select product for bulk add to cart"
+msgstr "Seleziona prodotto per aggiunta multipla al carrello"
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:14
+msgid "Gift registry products"
+msgstr "Prodotti lista regalo"
+
+#: gift-registry.php:716
+msgid "Invalid add to cart request."
+msgstr "Richiesta di aggiunta al carrello non valida."
+
+#: gift-registry.php:726
+msgid "Product not found in registry."
+msgstr "Prodotto non trovato nella lista regalo."
+
+#: gift-registry.php:744
+msgid "Invalid product."
+msgstr "Prodotto non valido."
 
 #: admin/class-gift-registry-admin.php:1113
 #: front/templates/gift-registry-table.php:719

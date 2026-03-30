@@ -708,9 +708,25 @@ if ( ! class_exists('AF_Gift_Registry_Main') ) {
 			$key        = sanitize_text_field( isset( $_POST['product_id'] ) ? $_POST['product_id'] : '' );
 			$gr_post_id = sanitize_text_field( isset( $_POST['gr_post_id'] ) ? $_POST['gr_post_id'] : '' );
 			WC()->session->set( 'addf_gift_registry_seesion_add_To_cart_gr_id', $gr_post_id );
-			$addf_g_r_quantity_for_product = sanitize_text_field( isset( $_POST['quantity_for_product'] ) ? $_POST['quantity_for_product'] : '' );
+			$addf_g_r_quantity_for_product = absint( isset( $_POST['quantity_for_product'] ) ? $_POST['quantity_for_product'] : 0 );
+			if ( empty( $key ) || empty( $gr_post_id ) || $addf_g_r_quantity_for_product < 1 ) {
+				wp_send_json(
+					array(
+						'success' => false,
+						'message' => esc_html__( 'Invalid add to cart request.', 'addf_giftr' ),
+					)
+				);
+			}
 			global $addf_gift_registry_count_add_t0_cart;
 			$addf_gift_registry_product               = (array) get_post_meta( $gr_post_id, 'addf_gift_registry_product', true );
+			if ( ! array_key_exists( $key, (array) $addf_gift_registry_product ) ) {
+				wp_send_json(
+					array(
+						'success' => false,
+						'message' => esc_html__( 'Product not found in registry.', 'addf_giftr' ),
+					)
+				);
+			}
 			$addf_g_r_product_id                      = $addf_gift_registry_product[ $key ];
 			$addf_gr_variation_selection_verify_vales = get_post_meta( $gr_post_id, 'addf_gr_variation_selection_verify_vales', true );
 			$variation_attr                           = array();
@@ -721,6 +737,14 @@ if ( ! class_exists('AF_Gift_Registry_Main') ) {
 				}
 			}
 			$product = wc_get_product( $addf_g_r_product_id );
+			if ( ! $product ) {
+				wp_send_json(
+					array(
+						'success' => false,
+						'message' => esc_html__( 'Invalid product.', 'addf_giftr' ),
+					)
+				);
+			}
 			if ( $product->is_type( 'variation' ) ) {
 				$variation_id        = $addf_g_r_product_id;
 				$addf_g_r_product_id = $product->get_parent_id();
@@ -765,7 +789,14 @@ if ( ! class_exists('AF_Gift_Registry_Main') ) {
 			} 
 			
 
-			if ($var_for_singlr_product[ $key ] < ( $var_for_singlr_product_rec[ $key ]+ $quantity + $addf_g_r_quantity_for_product )) {
+			if ( ! array_key_exists( $key, (array) $var_for_singlr_product ) ) {
+				$var_for_singlr_product[ $key ] = 0;
+			}
+			if ( ! array_key_exists( $key, (array) $var_for_singlr_product_rec ) ) {
+				$var_for_singlr_product_rec[ $key ] = 0;
+			}
+
+			if ( $var_for_singlr_product[ $key ] < ( $var_for_singlr_product_rec[ $key ] + $quantity + $addf_g_r_quantity_for_product ) ) {
 
 				$message = sprintf( 'Selected quantity for product is greater than required quantity' );
 				wc_add_notice( $message, 'error' );
@@ -779,53 +810,6 @@ if ( ! class_exists('AF_Gift_Registry_Main') ) {
 			//end of new added logic for checking received amount should not be greater then desired amount
 
 
-			if ( array_key_exists( $key, (array) $addf_gift_registry_product ) ) {
-				if ( WC()->cart->add_to_cart( $addf_g_r_product_id, $addf_g_r_quantity_for_product, $variation_id, $variation_attr) ) {
-					WC()->session->set( 'addf_gift_registry_seesion_add_To_cart', true );
-					++$addf_gift_registry_count_add_t0_cart;
-					$message = sprintf( '“%s” has been added to your cart.', get_the_title( $addf_g_r_product_id ) );
-					wc_add_notice( $message, 'success' );
-
-					$cart_contents                     = WC()->cart->get_cart_contents();
-					$addf_gift_registry_cart_item_data = array();
-
-					foreach ($cart_contents as $cart_item_key => $cart_item) {
-						if ($cart_item['product_id'] == $addf_g_r_product_id) {
-							$addf_gift_registry_cart_item_data = $cart_item;
-							break; 
-						}
-					}
-					wp_send_json(
-						array(
-							'success' => true,
-							'message' => wc_print_notices( true ),
-						)
-					);
-				}
-			}if ( array_key_exists( $key, (array) $addf_gift_registry_product ) ) {
-				if ( WC()->cart->add_to_cart( $addf_g_r_product_id, $addf_g_r_quantity_for_product, $variation_id, $variation_attr ) ) {
-					WC()->session->set( 'addf_gift_registry_seesion_add_To_cart', true );
-					++$addf_gift_registry_count_add_t0_cart;
-					$message = sprintf( '“%s” has been added to your cart.', get_the_title( $addf_g_r_product_id ) );
-					wc_add_notice( $message, 'success' );
-
-					$cart_contents                     = WC()->cart->get_cart_contents();
-					$addf_gift_registry_cart_item_data = array();
-
-					foreach ($cart_contents as $cart_item_key => $cart_item) {
-						if ($cart_item['product_id'] == $addf_g_r_product_id) {
-							$addf_gift_registry_cart_item_data = $cart_item;
-							break; 
-						}
-					}
-					wp_send_json(
-						array(
-							'success' => true,
-							'message' => wc_print_notices( true ),
-						)
-					);
-				}
-			}
 			if ( WC()->cart->add_to_cart( $addf_g_r_product_id, $addf_g_r_quantity_for_product, $variation_id, $variation_attr  ) ) {
 				WC()->session->set( 'addf_gift_registry_seesion_add_To_cart', true );
 				++$addf_gift_registry_count_add_t0_cart;
@@ -883,7 +867,7 @@ if ( ! class_exists('AF_Gift_Registry_Main') ) {
 			$addf_g_r_product_ids_array_size             = count( $key_ids_array );
 			$addf_gr_variation_selection_verify_vales    = get_post_meta( $gr_post_id, 'addf_gr_variation_selection_verify_vales', true );
 			$addf_gift_registry_product                  = get_post_meta( $gr_post_id, 'addf_gift_registry_product', true );
-			for ( $i = 1; $i < $addf_g_r_product_ids_array_size; $i++ ) {
+			for ( $i = 0; $i < $addf_g_r_product_ids_array_size; $i++ ) {
 				$variation_attr = array();
 				if ( array_key_exists( $key_ids_array[ $i ], (array) $addf_gr_variation_selection_verify_vales ) ) {
 					$variation_attr_main = $addf_gr_variation_selection_verify_vales[ $key_ids_array[ $i ] ];

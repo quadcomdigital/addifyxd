@@ -1229,7 +1229,7 @@ if ( ! class_exists( 'AF_Gift_Registry_Front ' ) ) {
 				
 
 				foreach ($addf_gift_registry_product as $product_key => $value) {
-					if ( '' != $value &&( $value == $product_id || $value == $variation_id )) {
+					if ( '' != $value && ( ( (int) $value === (int) $product_id ) || ( 0 !== (int) $variation_id && ( (int) $value === (int) $variation_id ) ) ) ) {
 						$key = $product_key;
 					}
 				}
@@ -1239,7 +1239,7 @@ if ( ! class_exists( 'AF_Gift_Registry_Front ' ) ) {
 
 				foreach (WC()->cart->get_cart() as $new_key=>$item) {
 					foreach ($item as $inner_key=>$inner_item) {
-						if (( 'variation_id' == $inner_key && $inner_item == $variation_id && '' != $variation_id ) || ( ( 'product_id' == $inner_key && $inner_item == $product_id ) ) ) {
+						if (( 'variation_id' == $inner_key && $inner_item == $variation_id && 0 !== (int) $variation_id ) || ( ( 'product_id' == $inner_key && $inner_item == $product_id ) ) ) {
 							$item_found = true;
 						}
 

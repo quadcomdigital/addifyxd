@@ -57,6 +57,14 @@ jQuery(function ($) {
 					}
 				});
 			});
+
+		// Allow keyboard activation for icon controls used as buttons.
+		$(document).on('keydown', '.addf_gr_edit_message_button, .addf_gr_delete_message_button', function (event) {
+			if ('Enter' === event.key || ' ' === event.key) {
+				event.preventDefault();
+				$(this).trigger('click');
+			}
+		});
 	
 	
 		
