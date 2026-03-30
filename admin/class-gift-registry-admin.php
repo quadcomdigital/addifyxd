@@ -313,6 +313,14 @@ if ( ! class_exists( 'AF_Gift_Registry_Admin' ) ) {
 					'desc'    => '<br>' . esc_html__( 'Select a method to restrict/allow user if cart have items', 'addf_giftr' ),
 					'id'      => 'wc_settings_tab_gift_registry_addf_gr_restrict_add_to_cart',
 				),
+				'addf_gr_enable_free_shipping_for_registry_orders' => array(
+					'name'    => esc_html__( ' Enable free shipping for Gift Registry orders', 'addf_giftr' ),
+					'type'    => 'checkbox',
+					'class'   => 'addf_gf_gen_tab_ops',
+					'desc'    => '<br>' . esc_html__( 'Apply free shipping when cart contains Gift Registry items only.', 'addf_giftr' ),
+					'id'      => 'wc_settings_tab_gift_registry_enable_free_shipping_for_registry_orders',
+					'default' => 'yes',
+				),
 				'gift_registry_menu_for_op'                => array(
 					'name'    => esc_html__( ' Select add to menu type  ', 'addf_giftr' ),
 					'type'    => 'radio',

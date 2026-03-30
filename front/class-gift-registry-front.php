@@ -72,6 +72,11 @@ if ( ! class_exists( 'AF_Gift_Registry_Front ' ) ) {
 
 		public function addf_gift_registry_force_free_shipping_rates( $rates, $package ) {
 
+			$enable_free_shipping_for_registry_orders = get_option( 'wc_settings_tab_gift_registry_enable_free_shipping_for_registry_orders', 'yes' );
+			if ( 'yes' !== $enable_free_shipping_for_registry_orders ) {
+				return $rates;
+			}
+
 			if ( is_admin() && ! wp_doing_ajax() ) {
 				return $rates;
 			}
