@@ -287,7 +287,7 @@ if ( is_user_logged_in() ) {
 										<span class="title-gift-registry"><strong> <?php echo esc_html__( 'First Name', 'addf_giftr' ); ?><span class="red">&nbsp;*</strong></strong></span>
 									</td>
 									<td>
-										<input class="title-gift-registry-input" required type="text" placeholder="First Name" name="gift_registry_guest_ship_f_name" value=<?php echo esc_attr($shipping_first_name); ?>><br>
+										<input class="title-gift-registry-input" required type="text" placeholder="First Name" name="gift_registry_guest_ship_f_name" value="<?php echo esc_attr( $shipping_first_name ); ?>"><br>
 									</td>
 								</tr>
 								<tr>
@@ -295,7 +295,7 @@ if ( is_user_logged_in() ) {
 										<span class="title-gift-registry"><strong> <?php echo esc_html__( 'Last Name', 'addf_giftr' ); ?><span class="red">&nbsp;*</strong></strong></span>
 									</td>
 									<td>
-										<input class="title-gift-registry-input" required type="text" placeholder="Last Name" name="gift_registry_guest_ship_l_name" value=<?php echo esc_attr($shipping_last_name); ?>><br>
+										<input class="title-gift-registry-input" required type="text" placeholder="Last Name" name="gift_registry_guest_ship_l_name" value="<?php echo esc_attr( $shipping_last_name ); ?>"><br>
 									</td>
 								</tr>
 								<tr>
@@ -303,7 +303,7 @@ if ( is_user_logged_in() ) {
 										<span class="title-gift-registry"><strong> <?php echo esc_html__( 'Company Name', 'addf_giftr' ); ?></strong></span>
 									</td>
 									<td>
-										<input class="title-gift-registry-input"  type="text" placeholder="Company Name" name="gift_registry_guest_ship_comp_name" value=<?php echo esc_attr($shipping_company); ?>><br>
+										<input class="title-gift-registry-input"  type="text" placeholder="Company Name" name="gift_registry_guest_ship_comp_name" value="<?php echo esc_attr( $shipping_company ); ?>"><br>
 									</td>
 								</tr>
 								<tr>
@@ -311,7 +311,7 @@ if ( is_user_logged_in() ) {
 										<span class="title-gift-registry"><strong> <?php echo esc_html__( 'Address', 'addf_giftr' ); ?><span class="red">&nbsp;*</strong></strong></span>
 									</td>
 									<td>
-										<input class="title-gift-registry-input" required type="text" placeholder="Address" name="gift_registry_guest_shipping_address" value=<?php echo esc_attr($shipping_address_1) . ' ' . esc_attr($shipping_address_2); ?>><br>
+										<input class="title-gift-registry-input" required type="text" placeholder="Address" name="gift_registry_guest_shipping_address" value="<?php echo esc_attr( $shipping_address_1 ) . ' ' . esc_attr( $shipping_address_2 ); ?>"><br>
 									</td>
 								</tr>
 								<tr>
@@ -319,7 +319,7 @@ if ( is_user_logged_in() ) {
 										<span class="title-gift-registry"><strong> <?php echo esc_html__( 'City', 'addf_giftr' ); ?><span class="red">&nbsp;*</strong></strong></span>
 									</td>
 									<td>
-										<input class="title-gift-registry-input" required type="text" placeholder="City" name="gift_registry_guest_shipping_city" value=<?php echo esc_attr($shipping_city); ?>><br>
+										<input class="title-gift-registry-input" required type="text" placeholder="City" name="gift_registry_guest_shipping_city" value="<?php echo esc_attr( $shipping_city ); ?>"><br>
 									</td>
 								</tr>
 								<tr>
@@ -327,7 +327,7 @@ if ( is_user_logged_in() ) {
 										<span class="title-gift-registry"><strong> <?php echo esc_html__( 'Postcode', 'addf_giftr' ); ?><span class="red">&nbsp;*</strong></strong></span>
 									</td>
 									<td>
-										<input class="title-gift-registry-input" required type="text" placeholder="Postcode" name="gift_registry_guest_shipping_post_code" value=<?php echo esc_attr($shipping_postcode); ?>><br>
+										<input class="title-gift-registry-input" required type="text" placeholder="Postcode" name="gift_registry_guest_shipping_post_code" value="<?php echo esc_attr( $shipping_postcode ); ?>"><br>
 									</td>
 								</tr>
 								<tr>

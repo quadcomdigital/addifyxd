@@ -843,3 +843,107 @@ textarea:focus-visible {
 		width: 100%;
 	}
 }
+
+/* Endpoint UX overrides for theme compatibility (including Yobazar-like themes). */
+.woocommerce-account .register-new-gift-registry,
+.woocommerce-account .existing-gift-registry-data {
+	max-width: 100%;
+	background: var(--addf-gr-color-surface);
+}
+
+.woocommerce-account .register-new-gift-registry-body table,
+.woocommerce-account .addf_gr_edit_registry_new table,
+.woocommerce-account .addf_gr_edit_registry table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+.woocommerce-account .register-new-gift-registry-body td,
+.woocommerce-account .addf_gr_edit_registry_new td,
+.woocommerce-account .addf_gr_edit_registry td,
+.woocommerce-account .addf_gr_edit_registry th {
+	padding: 10px;
+	vertical-align: top;
+}
+
+.woocommerce-account .register-new-gift-registry-body input[type="text"],
+.woocommerce-account .register-new-gift-registry-body input[type="email"],
+.woocommerce-account .register-new-gift-registry-body input[type="password"],
+.woocommerce-account .register-new-gift-registry-body input[type="date"],
+.woocommerce-account .register-new-gift-registry-body input[type="number"],
+.woocommerce-account .register-new-gift-registry-body select,
+.woocommerce-account .register-new-gift-registry-body textarea,
+.woocommerce-account .addf_gr_edit_registry_new input,
+.woocommerce-account .addf_gr_edit_registry_new select,
+.woocommerce-account .addf_gr_edit_registry_new textarea,
+.woocommerce-account .addf_gr_edit_registry input,
+.woocommerce-account .addf_gr_edit_registry select,
+.woocommerce-account .addf_gr_edit_registry textarea {
+	width: 100%;
+	max-width: 100%;
+	min-height: 40px;
+	box-sizing: border-box;
+}
+
+.woocommerce-account #gift-registry-submit,
+.woocommerce-account .a_for_create_registry,
+.woocommerce-account .a_for_create_registry_calcel,
+.woocommerce-account .addf-add-product-from-registry,
+.woocommerce-account .addf-add-product-from-registry-single-product,
+.woocommerce-account .addf_gift_registry_add_to_cart_from_product_save_to_directory,
+.woocommerce-account .addf_gr_add_cart_btn,
+.woocommerce-account .product_type_simple_add_to_cart_bulk_button {
+	border-radius: 8px;
+	padding: 10px 14px;
+	line-height: 1.2;
+}
+
+.woocommerce-account .addf_gr_product_scrollable_div {
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.addf-g-r-bg-cover,
+.addf_gift_registry_add_to_cart_from_product_div_cover,
+.addf_gift_registry_share_email_cover,
+.addf-greeting-message-popup {
+	z-index: 999998;
+}
+
+.addf_gr_popup_styles,
+.addf_gr_edit_registry_div,
+.addf_gift_registry_share_email_div {
+	z-index: 999999;
+}
+
+.addf-gr-no-scroll {
+	overflow: hidden;
+}
+
+@media (max-width: 768px) {
+	.woocommerce-account .register-new-gift-registry-body {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.woocommerce-account .register-new-gift-registry-body .text-table-side,
+	.woocommerce-account .register-new-gift-registry-body td,
+	.woocommerce-account .addf_gr_edit_registry_new td,
+	.woocommerce-account .addf_gr_edit_registry td,
+	.woocommerce-account .addf_gr_edit_registry th {
+		display: block;
+		width: 100%;
+	}
+	.woocommerce-account .register-new-gift-registry-body tr,
+	.woocommerce-account .addf_gr_edit_registry_new tr,
+	.woocommerce-account .addf_gr_edit_registry tr {
+		display: block;
+		border-bottom: 1px solid var(--addf-gr-color-border);
+		margin-bottom: 8px;
+	}
+	.woocommerce-account #addf-gr-registry-search-select,
+	.woocommerce-account .select2-container {
+		width: 100% !important;
+		max-width: 100%;
+	}
+}
