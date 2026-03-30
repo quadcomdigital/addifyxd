@@ -1,0 +1,1419 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gift Registry for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-23 08:27+0000\n"
+"PO-Revision-Date: 2024-01-23 08:27+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.2\n"
+"X-Domain: addf_giftr"
+
+#: admin/class-gift-registry-admin.php:248
+msgid "\tEnable Automatic Redirect after add to cart  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:266
+msgid "\tEnable edit and delete option for expired registry"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:292
+msgid "\tEnable privacy policy "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:273
+msgid "\tEnable search option for gift registry"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:241
+msgid "\tRestrict to create registry if shipping is not full filled  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1206
+#: admin/class-gift-registry-admin.php:1225
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:137
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:156
+#: front/templates/addf-gift-registry-public-int.php:203
+#: front/templates/addf-gift-registry-public-int.php:222
+#: front/templates/gift-registry-table.php:816
+#: front/templates/gift-registry-table.php:835
+#: front/templates/addf-gift-registry-creater.php:779
+#: front/templates/addf-gift-registry-creater.php:798
+#: front/templates/refresh-ajax-product-list.php:109
+#: front/templates/refresh-ajax-product-list.php:128
+msgid " : "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:610
+msgid " Add to Registry button text  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:328
+msgid " Allow Guest users to create registry"
+msgstr ""
+
+#: gift-registry.php:1056
+msgid ""
+" Dear user your friend {registrant_name} shared his gift registry named as "
+"{registry_title} with you "
+msgstr ""
+
+#: front/class-gift-registry-front.php:185
+msgid ""
+" Dear your friend {registrant_name} shared his gift registry named as "
+"{registry_title} with you "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:371
+msgid " Email Address  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:392
+#: admin/class-gift-registry-admin.php:413
+#: admin/class-gift-registry-admin.php:434
+msgid " Email Content for new registry created  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:456
+msgid " Email Content for share  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:585
+msgid " Enter message for expired registry if accessed directly  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:592
+msgid " Enter message for shipping address if not fulfilled  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:563
+#: admin/class-gift-registry-admin.php:570
+msgid " Enter Restriction Message for Guest user  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:578
+msgid " Enter Restriction Message for restricted users  "
+msgstr ""
+
+#: gift-registry.php:153
+msgid " Gift Registry"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:280
+msgid " Gift Registry search visibility  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:545
+msgid " Heading of email   "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:385
+msgid " Heading of email for admin"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:470
+msgid " Heading of email for admin   "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:427
+msgid " Heading of email for co registrant  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:520
+msgid " Heading of email for co registrant   "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:495
+msgid " Heading of email for registrant   "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:449
+msgid " Heading of email for share  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1104
+msgid " Name"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:395
+msgid " New Gift Registry Created"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:220
+msgid " Notify admin when Registry is created "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:199
+msgid " Notify Admin when someone buy gift  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:234
+msgid " Notify Co Registrant when Registry is created "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:213
+msgid " Notify co registrant when someone buy gift "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:227
+msgid " Notify Registrant when Registry is created "
+msgstr ""
+
+#: front/templates/addf-gift-registry-creater.php:146
+msgid " Password Protected"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:455
+#: front/templates/addf-gift-registry-creater.php:398
+msgid " Password protected"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:456
+#: front/templates/addf-gift-registry-creater.php:399
+msgid " Password: "
+msgstr ""
+
+#: front/templates/addf-gift-registry-single-post.php:45
+#: front/templates/addf-gift-registry-single-post.php:72
+msgid " Please verify password first"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1107
+msgid " Price"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:458
+#: front/templates/addf-gift-registry-creater.php:144
+#: front/templates/addf-gift-registry-creater.php:401
+msgid " Public"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:255
+msgid " Redirect to Page  "
+msgstr ""
+
+#: front/templates/addf-gift-registry-public-int.php:30
+#: front/templates/gift-registry-table.php:465
+#: front/templates/addf-gift-registry-creater.php:408
+msgid " Registrant Name"
+msgstr ""
+
+#: front/templates/addf-gift-registry-creater.php:34
+msgid " Registry Updated"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:317
+msgid " Select add to menu type  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:306
+msgid " Select restriction type  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:599
+msgid " Select type  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:335
+msgid " Select users  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:357
+msgid " Share on email"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:343
+msgid " Share on facebook"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:350
+msgid " Share on Twitter"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:284
+msgid " Single Registry Page"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:538
+msgid " Subject of email   "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:378
+msgid " Subject of email for admin"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:463
+msgid " Subject of email for admin   "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:420
+msgid " Subject of email for co registrant  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:513
+msgid " Subject of email for co registrant   "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:488
+msgid " Subject of email for registrant   "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:442
+msgid " Subject of email for share  "
+msgstr ""
+
+#: front/templates/addf-gift-registry-single-post.php:48
+#: front/templates/addf-gift-registry-single-post.php:75
+msgid " Submit"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:449
+#: front/templates/addf-gift-registry-creater.php:392
+msgid " Visibility"
+msgstr ""
+
+#: front/class-gift-registry-front.php:921
+msgid "\" owner shipping address"
+msgstr ""
+
+#: front/class-gift-registry-front.php:931
+msgid "\" Registry "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:158
+msgid "Active"
+msgstr ""
+
+#: front/class-gift-registry-front.php:483
+msgid "Add a message"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1314
+#: front/class-gift-registry-front.php:348
+msgid "Add a product"
+msgstr ""
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:216
+#: front/templates/addf-gift-registry-public-int.php:282
+msgid "Add Message"
+msgstr ""
+
+#: front/class-gift-registry-front.php:498
+msgid "Add message"
+msgstr ""
+
+#: gift-registry.php:143 gift-registry.php:144
+msgid "Add New Registry"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1340
+#: front/class-gift-registry-front.php:374
+msgid "Add product"
+msgstr ""
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:227
+#: front/templates/addf-gift-registry-public-int.php:293
+msgid "Add to Cart"
+msgstr ""
+
+#: gift-registry.php:1101 front/class-gift-registry-front.php:409
+msgid "Add to Gift Registry"
+msgstr ""
+
+#: gift-registry.php:152
+msgid "addf_gift_registry"
+msgstr ""
+
+#. Author of the plugin
+msgid "Addify"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1008
+#: front/templates/gift-registry-table.php:311
+#: front/templates/gift-registry-table.php:562
+#: front/templates/addf-gift-registry-creater.php:271
+#: front/templates/addf-gift-registry-creater.php:506
+msgid "Address"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:794
+msgid "Address information"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:477
+msgid "Admin email template for purchased products "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:321
+msgid "All Users"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:364
+msgid "Allow to copy link "
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Allow your customers to create multiple gift registries and share with their "
+"friends and family so they buy gifts for the upcoming events."
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:286
+msgid "Both"
+msgstr ""
+
+#: front/templates/addf-gift-registry-public-int.php:329
+msgid "Bulk Add to Cart"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:193
+msgid "Button Customization"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1341
+#: front/class-gift-registry-front.php:376
+#: front/class-gift-registry-front.php:399
+#: front/class-gift-registry-front.php:467
+#: front/class-gift-registry-front.php:500
+#: front/templates/gift-registry-table.php:387
+#: front/templates/addf-gift-registry-creater.php:362
+msgid "Cancel"
+msgstr ""
+
+#: front/class-gift-registry-front.php:1099
+msgid "Cart contain Gift Registry Items cannot add products"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:259
+msgid "Cart Page"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:360
+msgid "Check if you want to allow email share "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:346
+msgid "Check if you want to allow facebook share "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:331
+msgid "Check if you want to allow guests users to create registry "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:353
+msgid "Check if you want to allow Twitter share "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:367
+msgid "Check if you want to allow user to copy link of registry "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:251
+msgid ""
+"Check if you want to enable automatic redirect to cart/checkout page after "
+"add to cart "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:269
+msgid ""
+"Check if you want to enable edit and delete option for expired registry at "
+"front. "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:295
+msgid "Check if you want to enable privacy policy checkbox"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:276
+msgid "Check if you want to enable search option for gift registry. "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:223
+msgid "Check if you want to notify the admin after creating registry "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:202
+msgid "Check if you want to notify the admin if someone buy a gift "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:237
+msgid "Check if you want to notify the co registrant  after creating registry "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:216
+msgid ""
+"Check if you want to notify the co registrant of registry if someone buy a "
+"gift "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:209
+msgid "Check if you want to notify the registrant if someone buy a gift "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:230
+msgid ""
+"Check if you want to notify the registrant of registry  after creating "
+"registry "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:244
+msgid ""
+"Check if you want to restrict the user to add to registry if shipping form "
+"is not fulfilled "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:260
+msgid "Checkout Page"
+msgstr ""
+
+#: front/class-gift-registry-front.php:415
+msgid "Choose a Gift Registry"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:606
+msgid "choose a type for add to cart button or text "
+msgstr ""
+
+#: gift-registry.php:953
+msgid "Choose Products..."
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:324
+msgid ""
+"Choose whether Gift Registry page for all users or only for allowed users "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1016
+#: front/templates/gift-registry-table.php:319
+#: front/templates/gift-registry-table.php:570
+#: front/templates/addf-gift-registry-creater.php:279
+#: front/templates/addf-gift-registry-creater.php:514
+msgid "City"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:490
+#: front/templates/addf-gift-registry-creater.php:199
+#: front/templates/addf-gift-registry-creater.php:433
+msgid "Co Registrant Email"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:527
+msgid "Co registrant email template for purchased products "
+msgstr ""
+
+#: front/templates/addf-gift-registry-creater.php:183
+msgid "Co Registrant First Name"
+msgstr ""
+
+#: front/templates/addf-gift-registry-creater.php:191
+msgid "Co Registrant Last Name"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:482
+#: front/templates/addf-gift-registry-creater.php:425
+msgid "Co Registrant Name"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:880
+#: front/templates/gift-registry-table.php:193
+msgid "Co-Registrant Information"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1002
+#: front/templates/gift-registry-table.php:554
+#: front/templates/addf-gift-registry-creater.php:263
+#: front/templates/addf-gift-registry-creater.php:498
+msgid "Company"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:303
+msgid "Company Name"
+msgstr ""
+
+#: front/class-gift-registry-front.php:465
+msgid "Confirm"
+msgstr ""
+
+#: gift-registry.php:1079
+msgid ""
+"Congratulations ,Dear admin a user purchased {product_name} for "
+"{registrant_name} ( {registrant_id} ) from {registry_title} as on "
+"{time_of_purchase}"
+msgstr ""
+
+#: front/class-gift-registry-front.php:991
+msgid "Congratulations ,Dear user {registrant_name}( {registrant_id} )"
+msgstr ""
+
+#: gift-registry.php:1082
+msgid ""
+"Congratulations ,Dear user {registrant_name}( {registrant_id} ) your friend "
+"have  purchased {product_name} from {registry_title} for you as on "
+"{time_of_purchase}"
+msgstr ""
+
+#: gift-registry.php:1085
+msgid ""
+"Congratulations ,Dear user. A user purchased {product_name} for "
+"{registrant_name}  from {registry_title} where you are co registrant as on "
+"{time_of_purchase}"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:623
+#: front/templates/addf-gift-registry-creater.php:571
+msgid "Copy Link"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1030
+#: front/templates/gift-registry-table.php:335
+#: front/templates/gift-registry-table.php:586
+#: front/templates/addf-gift-registry-creater.php:295
+#: front/templates/addf-gift-registry-creater.php:530
+msgid "Country"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:386
+msgid "Create Gift Registry"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:31
+#: front/templates/gift-registry-table.php:63
+msgid "Create new Gift Registry"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:88
+msgid "Creating New Gift Registry"
+msgstr ""
+
+#: gift-registry.php:1043
+msgid ""
+"Dear Admin a user {registrant_name}( {registrant_id} ) just have created  "
+"new Gift Registry named as {registry_title} as on {current_time}"
+msgstr ""
+
+#: gift-registry.php:1051
+msgid ""
+"Dear user your friend {registrant_name} just have created  new Gift Registry "
+"named as {registry_title} at {current_time} and choose you as a co "
+"registrant "
+msgstr ""
+
+#: gift-registry.php:1047 gift-registry.php:1089
+#: front/class-gift-registry-front.php:211
+msgid "Dear user {registrant_name}( {registrant_id} )"
+msgstr ""
+
+#: front/templates/addf-gift-registry-creater.php:651
+msgid "Delete"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1110
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:13
+#: front/templates/addf-gift-registry-public-int.php:79
+#: front/templates/gift-registry-table.php:716
+#: front/templates/addf-gift-registry-creater.php:680
+#: front/templates/refresh-ajax-product-list.php:15
+msgid "Desired Quantity"
+msgstr ""
+
+#: front/templates/addf-gift-registry-creater.php:648
+msgid "Edit"
+msgstr ""
+
+#: front/templates/addf-gift-registry-creater.php:124
+msgid "Edit Gift Registry"
+msgstr ""
+
+#: gift-registry.php:145
+msgid "Edit Registry"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:870
+#: admin/class-gift-registry-admin.php:907
+#: front/templates/gift-registry-table.php:141
+#: front/templates/gift-registry-table.php:178
+#: front/templates/gift-registry-table.php:214
+msgid "Email"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:191
+msgid "Email Settings"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:552
+msgid "Email template for expired registry "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:588
+msgid ""
+"Enter message for expired gift registry to inform user if accessed directly"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:118
+#: front/templates/addf-gift-registry-creater.php:154
+msgid "Enter Password"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:302
+msgid ""
+"Enter privacy policy policy , you can use <a href=\"https://www.google.com\">"
+" Text </a> for anchor tag. "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:566
+msgid ""
+"Enter restriction message for guest user if user is not allowed to create "
+"gift registry "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:573
+msgid ""
+"Enter restriction message for user which will show to user on add to cart if "
+"there's no gift registry created . "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:581
+msgid ""
+"Enter restriction message for users who are not allowed to create gift "
+"registry "
+msgstr ""
+
+#: gift-registry.php:920 admin/class-gift-registry-admin.php:1079
+#: front/templates/addf-gift-registry-creater.php:349
+msgid "Enter State"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:613
+msgid "Enter text for add to registry button "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:374
+msgid "Enter your (Admin) email address for notification "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:929
+#: front/templates/addf-gift-registry-public-int.php:39
+#: front/templates/gift-registry-table.php:227
+#: front/templates/gift-registry-table.php:498
+#: front/templates/addf-gift-registry-creater.php:207
+#: front/templates/addf-gift-registry-creater.php:441
+msgid "Event Date"
+msgstr ""
+
+#: front/templates/addf-gift-registry-public-int.php:55
+#: front/templates/gift-registry-table.php:514
+#: front/templates/addf-gift-registry-creater.php:223
+#: front/templates/addf-gift-registry-creater.php:457
+msgid "Event Detail"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:923
+#: front/templates/gift-registry-table.php:222
+msgid "Event Information"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:937
+#: front/templates/addf-gift-registry-public-int.php:47
+#: front/templates/gift-registry-table.php:235
+#: front/templates/gift-registry-table.php:506
+#: front/templates/addf-gift-registry-creater.php:215
+#: front/templates/addf-gift-registry-creater.php:449
+msgid "Event Location"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:947
+#: front/templates/gift-registry-table.php:243
+msgid "Event Message"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:164
+msgid "Expired"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:850
+#: admin/class-gift-registry-admin.php:887
+#: admin/class-gift-registry-admin.php:988
+#: front/templates/gift-registry-table.php:152
+#: front/templates/gift-registry-table.php:198
+#: front/templates/gift-registry-table.php:287
+#: front/templates/gift-registry-table.php:538
+#: front/templates/addf-gift-registry-creater.php:247
+#: front/templates/addf-gift-registry-creater.php:482
+msgid "First Name"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:311
+msgid "Force to deliver with gift registry items"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:189
+msgid "General Settings"
+msgstr ""
+
+#: gift-registry.php:137 gift-registry.php:138 gift-registry.php:139
+#: gift-registry.php:141 front/class-gift-registry-front.php:532
+#: front/class-gift-registry-front.php:544
+#: front/class-gift-registry-front.php:548
+#: front/class-gift-registry-front.php:557
+#: front/class-gift-registry-front.php:579
+#: front/class-gift-registry-front.php:829
+#: emails/registry-expire/create-new-mail.php:11
+#: emails/share-registry/create-new-mail.php:11
+#: emails/create-new-registry/co_registrant/create-new-mail.php:11
+#: emails/create-new-registry/admin/create-new-mail-admin.php:11
+#: emails/create-new-registry/registrant/create-new-mail.php:11
+#: emails/product-purchase/co_registrant/create-new-mail.php:11
+#: emails/product-purchase/admin/create-new-mail-admin.php:11
+#: emails/product-purchase/registrant/create-new-mail.php:11
+msgid "Gift Registry"
+msgstr ""
+
+#. Name of the plugin
+msgid "Gift Registry for WooCommerce"
+msgstr ""
+
+#: gift-registry.php:55
+msgid ""
+"Gift Registry for WooCommerce plugin is inactive. WooCommerce plugin must be "
+"active in order to activate it."
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:285
+msgid "Gift Registry Page"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:172
+#: admin/class-gift-registry-admin.php:186
+msgid "Gift Registry Settings"
+msgstr ""
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:22
+#: front/templates/addf-gift-registry-public-int.php:88
+msgid "Greeting Message"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:120
+msgid "Guest"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:388
+msgid ""
+"Heading in email send to admin to be displayed whenever new registry is "
+"created."
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:473
+msgid ""
+"Heading in email send to admin to be displayed whenever someone buys product "
+"from registry."
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:430
+msgid ""
+"Heading in email send to co registrant to be displayed whenever new registry "
+"is created."
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:523
+msgid ""
+"Heading in email send to co registrant to be displayed whenever someone buys "
+"product from registry."
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:409
+msgid ""
+"Heading in email send to registrant to be displayed whenever new registry is "
+"created."
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:498
+msgid ""
+"Heading in email send to registrant to be displayed whenever someone buys "
+"product from registry."
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:452
+msgid "Heading in email to be displayed if share"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:548
+msgid "Heading in email to be displayed whenever a registry is expired."
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:406
+msgid "Heading of email for registrant  "
+msgstr ""
+
+#: front/class-gift-registry-front.php:826
+msgid "Home"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://woocommerce.com/products/gift-registry-for-woocommerce/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com/vendor/addify/"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1101
+msgid "Image"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:860
+#: admin/class-gift-registry-admin.php:897
+#: admin/class-gift-registry-admin.php:994
+#: front/templates/gift-registry-table.php:165
+#: front/templates/gift-registry-table.php:206
+#: front/templates/gift-registry-table.php:295
+#: front/templates/gift-registry-table.php:546
+#: front/templates/addf-gift-registry-creater.php:255
+#: front/templates/addf-gift-registry-creater.php:490
+msgid "Last Name"
+msgstr ""
+
+#: front/class-gift-registry-front.php:788
+#: front/templates/gift-registry-table.php:47
+msgid "Mail not sent please try again later"
+msgstr ""
+
+#: front/class-gift-registry-front.php:784
+#: front/templates/gift-registry-table.php:43
+msgid "Mail sent successfully"
+msgstr ""
+
+#: front/class-gift-registry-front.php:393
+#: front/class-gift-registry-front.php:487
+msgid "Message"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:595
+msgid "Message will shown if shipping address is not fulfilled"
+msgstr ""
+
+#: front/class-gift-registry-front.php:455
+msgid "No gift registry found"
+msgstr ""
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:19
+#: front/templates/addf-gift-registry-public-int.php:85
+msgid "No of Qty"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1284
+#: admin/class-gift-registry-admin.php:1293
+msgid "No product found"
+msgstr ""
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:251
+#: front/templates/addf-gift-registry-public-int.php:315
+#: front/templates/gift-registry-table.php:910
+#: front/templates/addf-gift-registry-creater.php:863
+msgid "No product to show"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:150
+msgid "Not Defined"
+msgstr ""
+
+#: gift-registry.php:148
+msgid "Not found"
+msgstr ""
+
+#: gift-registry.php:149
+msgid "Not found in Trash"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:206
+msgid "Notify Registrant when someone buy gift"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:322
+msgid "Only for users allowed to create registry"
+msgstr ""
+
+#: gift-registry.php:140
+msgid "Parent Item:"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:840
+#: front/templates/gift-registry-table.php:115
+msgid "Password"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:145
+#: admin/class-gift-registry-admin.php:834
+msgid "Password protected"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:788
+msgid "Personal information"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1022
+#: front/templates/gift-registry-table.php:327
+#: front/templates/gift-registry-table.php:578
+#: front/templates/addf-gift-registry-creater.php:287
+#: front/templates/addf-gift-registry-creater.php:522
+msgid "Postcode"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:299
+msgid "Privacy policy"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:110
+msgid "Private"
+msgstr ""
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:7
+#: front/templates/addf-gift-registry-public-int.php:73
+#: front/templates/gift-registry-table.php:707
+#: front/templates/addf-gift-registry-creater.php:671
+#: front/templates/refresh-ajax-product-list.php:6
+msgid "Product Image"
+msgstr ""
+
+#: gift-registry.php:1060 gift-registry.php:1063 gift-registry.php:1066
+#: gift-registry.php:1069 gift-registry.php:1072 gift-registry.php:1075
+msgid "Product is purchased"
+msgstr ""
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:10
+#: front/templates/addf-gift-registry-public-int.php:76
+#: front/templates/gift-registry-table.php:710
+#: front/templates/addf-gift-registry-creater.php:674
+#: front/templates/refresh-ajax-product-list.php:9
+msgid "Product Name"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:713
+#: front/templates/addf-gift-registry-creater.php:677
+#: front/templates/refresh-ajax-product-list.php:12
+msgid "Product Price"
+msgstr ""
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:236
+#: front/templates/addf-gift-registry-public-int.php:302
+msgid "Product purchased"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:800
+msgid "products"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:147
+#: admin/class-gift-registry-admin.php:831
+#: front/templates/gift-registry-table.php:108
+msgid "Public"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1319
+#: front/class-gift-registry-front.php:353
+msgid "Quantity"
+msgstr ""
+
+#: front/templates/refresh-ajax-product-registry-at-buyer-side.php:16
+#: front/templates/addf-gift-registry-public-int.php:82
+msgid "Received Quantity"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1113
+#: front/templates/gift-registry-table.php:719
+#: front/templates/addf-gift-registry-creater.php:683
+#: front/templates/refresh-ajax-product-list.php:18
+msgid "Recieved Quantity"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:107
+#: front/templates/gift-registry-table.php:474
+#: front/templates/addf-gift-registry-creater.php:175
+#: front/templates/addf-gift-registry-creater.php:417
+msgid "Registrant Email"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:502
+msgid "Registrant email template for purchased products "
+msgstr ""
+
+#: front/templates/addf-gift-registry-creater.php:159
+msgid "Registrant First Name"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:813
+#: front/templates/gift-registry-table.php:123
+msgid "Registrant Information"
+msgstr ""
+
+#: front/templates/addf-gift-registry-creater.php:167
+msgid "Registrant Last Name"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:105
+msgid "Registrant User Id"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:106
+msgid "Registrant User Name"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:443
+#: front/templates/addf-gift-registry-creater.php:384
+msgid "Registry Expired"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:104
+msgid "Registry Visibility"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:310
+msgid "Restrict user"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:192
+msgid "Restriction Messages Customization"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:923
+#: front/templates/addf-gift-registry-creater.php:877
+msgid "Save changes"
+msgstr ""
+
+#: gift-registry.php:147
+msgid "Search Registry"
+msgstr ""
+
+#: gift-registry.php:180 gift-registry.php:318 gift-registry.php:401
+#: gift-registry.php:472 gift-registry.php:575 gift-registry.php:606
+#: gift-registry.php:635 gift-registry.php:677 gift-registry.php:697
+#: gift-registry.php:789 gift-registry.php:857 gift-registry.php:894
+#: gift-registry.php:932 admin/class-gift-registry-admin.php:1374
+#: admin/class-gift-registry-admin.php:1453
+#: admin/class-gift-registry-admin.php:1489
+#: front/class-gift-registry-front.php:170
+#: front/templates/addf-gift-registry-single-post.php:58
+#: front/templates/addf-gift-registry-creater.php:12
+msgid "Security Violated!"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:313
+msgid "Select a method to restrict/allow user if cart have items"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1318
+#: admin/class-gift-registry-admin.php:1324
+#: front/class-gift-registry-front.php:352
+#: front/class-gift-registry-front.php:358
+msgid "Select a product"
+msgstr ""
+
+#: front/class-gift-registry-front.php:417
+msgid "Select a Registry"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:339
+msgid "Select roles you want to allow them to create registry "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:262
+msgid ""
+"Select the page on which automatic redirect will take place after add to "
+"cart "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:288
+msgid "Select the page on which gift registry search will displayed "
+msgstr ""
+
+#: front/class-gift-registry-front.php:722
+msgid "Select Variation for Gift Registry"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1034
+#: front/templates/gift-registry-table.php:339
+#: front/templates/addf-gift-registry-creater.php:299
+msgid "Select your country"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1057
+#: front/templates/gift-registry-table.php:363
+#: front/templates/addf-gift-registry-creater.php:325
+msgid "Select your country first"
+msgstr ""
+
+#: front/class-gift-registry-front.php:398
+msgid "Send mail"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:646
+#: front/templates/addf-gift-registry-creater.php:594
+msgid "Share Via"
+msgstr ""
+
+#: front/class-gift-registry-front.php:389
+msgid "Share via Email"
+msgstr ""
+
+#: front/class-gift-registry-front.php:910
+msgid "Ship to Gift Registry owner"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:983
+#: front/templates/gift-registry-table.php:282
+#: front/templates/gift-registry-table.php:533
+#: front/templates/addf-gift-registry-creater.php:242
+#: front/templates/addf-gift-registry-creater.php:477
+msgid "Shipping Address"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:603
+msgid "Show Button"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:604
+msgid "Show link"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:190
+msgid "Social Settings"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:1049
+#: front/templates/gift-registry-table.php:358
+#: front/templates/gift-registry-table.php:604
+#: front/templates/addf-gift-registry-creater.php:317
+#: front/templates/addf-gift-registry-creater.php:549
+msgid "State"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:108
+msgid "Status"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:399
+msgid "Subject of email for registrant  "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:381
+msgid ""
+"Subject of email send to admin to be displayed whenever new registry is "
+"created."
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:466
+msgid ""
+"Subject of email send to admin to be displayed whenever someone buys product "
+"from registry."
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:423
+msgid ""
+"Subject of email send to co registrant to be displayed whenever new registry "
+"is created."
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:516
+msgid ""
+"Subject of email send to co registrant to be displayed whenever someone buys "
+"product from registry."
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:402
+msgid ""
+"Subject of email send to registrant to be displayed whenever new registry is "
+"created."
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:491
+msgid ""
+"Subject of email send to registrant to be displayed whenever someone buys "
+"product from registry."
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:445
+msgid "Subject of email to be displayed if share"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:541
+msgid "Subject of email to be displayed whenever a registry is expired."
+msgstr ""
+
+#: emails/registry-expire/create-new-mail.php:13
+msgid "The mail will be send to registrant whenever a registry is expired."
+msgstr ""
+
+#: emails/share-registry/create-new-mail.php:13
+msgid ""
+"The mail will be send to the mail when registrant share registry via mail."
+msgstr ""
+
+#: emails/create-new-registry/admin/create-new-mail-admin.php:13
+msgid "This mail will send to admin whenever a new registry is created."
+msgstr ""
+
+#: emails/product-purchase/admin/create-new-mail-admin.php:13
+msgid ""
+"This mail will send to admin whenever a product is purchased from registry."
+msgstr ""
+
+#: emails/create-new-registry/co_registrant/create-new-mail.php:13
+msgid ""
+"This mail will send to co registrant whenever a new registry is created."
+msgstr ""
+
+#: emails/product-purchase/co_registrant/create-new-mail.php:13
+msgid ""
+"This mail will send to co registrant whenever a product is purchased from "
+"registry."
+msgstr ""
+
+#: emails/create-new-registry/registrant/create-new-mail.php:13
+msgid "This mail will send to registrant whenever a new registry is created."
+msgstr ""
+
+#: emails/product-purchase/registrant/create-new-mail.php:13
+msgid ""
+"This mail will send to registrant whenever a product is purchased from "
+"registry."
+msgstr ""
+
+#: front/templates/gift-registry-table.php:96
+#: front/templates/addf-gift-registry-creater.php:129
+msgid "Title"
+msgstr ""
+
+#: front/class-gift-registry-front.php:391
+msgid "To"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:555
+msgid ""
+"Type a content which will send whenever a registry is expired . Use "
+"{registrant_id} for user id , {registrant_name} for name of user ,  \n"
+"\t\t\t\t\t\t{registry_title} for registry title and {current_time} for time "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:530
+msgid ""
+"Type a content which will send whenever someone purchases a product . Use "
+"{registrant_id} for user id , {registrant_name} for name of user , "
+"{co_registrant_name} for co registrant name , {registry_title} for registry "
+"title ,  \n"
+"\t\t\t\t\t\t{product_name} for product name purchased and {time_of_purchase} "
+"for time of product purchased"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:480
+#: admin/class-gift-registry-admin.php:505
+msgid ""
+"Type a content which will send whenever someone purchases a product . Use "
+"{registrant_id} for user id , {registrant_name} for name of user "
+"{registry_title} for registry title ,  \n"
+"\t\t\t\t\t\t{product_name} for product name purchased {time_of_purchase} for "
+"time of product purchased"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:459
+msgid ""
+"Type content of email which will be send whenever user share registry "
+"through email. Use {registrant_id} for user id , {registrant_name} for name "
+"of user , {registrant_msg} for registrant message , {registry_title} for "
+"registry title and {registry_url} for url of registry"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:395
+msgid ""
+"Type content of email which will send to admin whenever a new registry "
+"created . Use {registrant_id} for user id , {registrant_name} for name of "
+"user , {registry_title} for registry title , {current_time} for time  and "
+"{registrant_msg} for registrant message "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:437
+msgid ""
+"Type content of email which will send to co registrant whenever a new "
+"registry created . Use {registrant_id} for user id , {registrant_name} for "
+"name of user , {co_registrant_name} for co registrant name , {registry_title}"
+" for registry title , {current_time} for time  and {registrant_msg} for "
+"registrant message "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:416
+msgid ""
+"Type content of email which will send to registrant whenever a new registry "
+"created . Use {registrant_id} for user id , {registrant_name} for name of "
+"user , {registry_title} for registry title , {current_time} for time  and "
+"{registrant_msg} for registrant message "
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:138
+msgid "Unable to get user's email"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:129
+msgid "Unable to get user's name"
+msgstr ""
+
+#: gift-registry.php:146 front/templates/addf-gift-registry-creater.php:361
+msgid "Update Registry"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:574
+msgid ""
+"Use <a href=\"{gift_registry_page}\" > click here </a> to go to gift "
+"registry page"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:133
+msgid "User Name"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:194
+msgid "View all Gift Registries"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:932
+msgid "View Less"
+msgstr ""
+
+#: gift-registry.php:142
+msgid "View Messages"
+msgstr ""
+
+#: front/templates/gift-registry-table.php:931
+msgid "View More"
+msgstr ""
+
+#: admin/class-gift-registry-admin.php:820
+#: front/templates/gift-registry-table.php:104
+#: front/templates/addf-gift-registry-creater.php:137
+#: front/templates/addf-gift-registry-creater.php:151
+msgid "Visibility"
+msgstr ""
+
+#: front/templates/addf-gift-registry-single-post.php:69
+msgid "Wrong password"
+msgstr ""
+
+#: gift-registry.php:1047 front/class-gift-registry-front.php:211
+msgid ""
+"you have created  new Gift Registry named as {registry_title} as on "
+"{current_time}"
+msgstr ""
+
+#: front/class-gift-registry-front.php:991
+msgid ""
+"your friend have  purchased {product_name}  for you as on {time_of_purchase}"
+msgstr ""
+
+#: gift-registry.php:1089
+msgid ""
+"your Gift Registry named as {registry_title} has been expired as on "
+"{current_time}"
+msgstr ""

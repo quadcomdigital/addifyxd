@@ -1,0 +1,23 @@
+*** Gift Registry for WooCommerce Plugin Change log ***
+
+
+2024-02-13 - version 1.2.0
+* New - Added Shipping fields for logged in users.
+* New - Greeting message option for buyer.
+* New - Automatic redirect to cart / checkout page after add to cart.
+* New - Gift Registry Search option.
+* New - Delete and edit feature for expired registries.
+* Fix - Fixed Registry access link form my account page.
+* Fix - Fixed Registry Creation issue from admin side.
+* Fix - Fixed design issues.
+
+2023-10-12 - version 1.1.0
+* Update - Compatibility updated for latest versions of WooCommerce and WordPress.
+* Update - Compatible with WooCommerce High-Performance Order Storage (HPOS).
+* Fix - Fixed nonce issues. 
+
+2022-06-22 - version 1.0.1
+* Fix - Bug fixed with variations that are added to gift registry if parent product status is draft.
+
+2021-06-10 - version 1.0.0
+* Other - Initial release of the plugin.

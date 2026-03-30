@@ -1,0 +1,99 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1" display-as-translated="1">addf_gift_registry</custom-type>
+  </custom-types>
+  <custom-fields>
+    <custom-field action="translate">addf_gr_product_quantity</custom-field>
+    <custom-field action="translate">addf_gr_variation_selection_verify_vales</custom-field>
+    <custom-field action="translate">addf_gift_registry_product</custom-field>
+    <custom-field action="translate">addf_gr_product_quantity_recieved</custom-field>
+    <custom-field action="translate">gift-registry-registrant-user_is_wp</custom-field>
+    <custom-field action="translate">addf-gift-registry-visibility</custom-field>
+    <custom-field action="translate">addf-gift-registry-visibility-private-pass</custom-field>
+    <custom-field action="translate">gift-registry-registrant-first-name</custom-field>
+    <custom-field action="translate">gift-registry-registrant-last-name</custom-field>
+    <custom-field action="translate">gift-registry-registrant-email</custom-field>
+    <custom-field action="translate">gift-registry-co-registrant-first</custom-field>
+    <custom-field action="translate">gift-registry-co-registrant-last-name</custom-field>
+    <custom-field action="translate">gift-registry-co-registrant-email</custom-field>
+    <custom-field action="translate">gift-registry-event-info-date</custom-field>
+    <custom-field action="translate">gift-registry-event-info-location</custom-field>
+    <custom-field action="translate">gift-registry-event-info-message</custom-field>
+    <custom-field action="translate">gift-registry-event-info-expire-date</custom-field>
+    <custom-field action="translate">_shipping_first_name</custom-field>
+    <custom-field action="translate">_shipping_last_name</custom-field>
+    <custom-field action="translate">_shipping_company</custom-field>
+    <custom-field action="translate">_shipping_address_1</custom-field>
+    <custom-field action="translate">_shipping_address_2</custom-field>
+    <custom-field action="translate">_shipping_city</custom-field>
+    <custom-field action="translate">_shipping_postcode</custom-field>
+    <custom-field action="translate">_shipping_country</custom-field>
+    <custom-field action="translate">_shipping_state</custom-field>
+    <custom-field action="translate">addf_gr_guest_ip_address_reg_created</custom-field>
+    <custom-field action="translate">gift_registry_guest_ship_f_name</custom-field>
+    <custom-field action="translate">gift_registry_guest_ship_l_name</custom-field>
+    <custom-field action="translate">gift_registry_guest_ship_comp_name</custom-field>
+    <custom-field action="translate">gift_registry_guest_shipping_address</custom-field>
+    <custom-field action="translate">gift_registry_guest_shipping_city</custom-field>
+    <custom-field action="translate">gift_registry_guest_shipping_post_code</custom-field>
+    <custom-field action="translate">gift_registry_guest_shipping_country</custom-field>
+    <custom-field action="translate">gift_registry_guest_shipping_state</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="addf_gf_email_content_for_admin"/>
+    <key name="addf_gr_email_content_for_co_registrant"/>
+    <key name="addf_gr_email_subject_for_admin"/>
+    <key name="addf_gr_email_subject_for_admin_heading"/>
+    <key name="addf_gr_email_subject_for_co_registrant"/>
+    <key name="addf_gr_email_subject_for_co_registrant_heading"/>
+    <key name="addf_gr_empty_gr_text"/>
+    <key name="addf_gr_enable_pp_cb"/>
+    <key name="addf_gr_enable_pp_text"/>
+    <key name="addf_gr_product_purchase_mail_subject_admin"/>
+    <key name="addf_gr_product_purchase_mail_subject_admin_heading"/>
+    <key name="addf_gr_product_purchase_mail_subject_co_registrant"/>
+    <key name="addf_gr_product_purchase_mail_subject_co_registrant_heading"/>
+    <key name="addf_gr_product_purchase_mail_subject_registrant"/>
+    <key name="addf_gr_product_purchase_mail_subject_registrant_heading"/>
+    <key name="email_addf_gift_registry_email_syntax_admin"/>
+    <key name="email_addf_gift_registry_email_syntax_co_registrant"/>
+    <key name="email_addf_gift_registry_email_syntax_reg_expired"/>
+    <key name="email_addf_gift_registry_email_syntax_registrant"/>
+    <key name="wc_settings_tab_gift_registry_addf_gr_allow_users_create_registry"/>
+    <key name="wc_settings_tab_gift_registry_addf_gr_restrict_add_to_cart"/>
+    <key name="wc_settings_tab_gift_registry_gift_registry_btn_option"/>
+    <key name="wc_settings_tab_gift_registry_gift_registry_menu_for_op"/>
+    <key name="wc_settings_tab_gift_registry_notify_co_registrant_new_reg_send_mail"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_admin"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_admin__new_reg_email_sytax"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_admin_email"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_admin_email_sytax"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_btn_text"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_email_share"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_email_share_link_private"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_enable_edit_delete_for_expired_registry"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_enable_gift_registry_search"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_enable_redirect_after_add_to_cart"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_exp_reg_msg"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_exp_site_title"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_exp_site_title_heading"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_fb_share"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_guest_res_msg"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_new_reg_site_title"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_new_reg_site_title_heading"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_p_buy_site_title"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_redirect_after_add_to_cart_option"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_rest_user_res_msg"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_restriction"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_shiping_addr"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_site_title"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_site_title_heading"/>
+    <key name="wc_settings_tab_gift_registry_notify_gift_registry_twitter_share"/>
+    <key name="wc_settings_tab_gift_registry_notify_r_owner"/>
+    <key name="wc_settings_tab_gift_registry_notify_registrant_allow_gest"/>
+    <key name="wc_settings_tab_gift_registry_notify_registrant_friend"/>
+    <key name="wc_settings_tab_gift_registry_notify_registrant_new_admin_send_mail"/>
+    <key name="wc_settings_tab_gift_registry_notify_registrant_new_reg_send_mail"/>
+    <key name="wc_settings_tab_gift_registry_search_visibility_page_option"/>
+  </admin-texts>
+</wpml-config>
