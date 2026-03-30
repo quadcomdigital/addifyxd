@@ -228,6 +228,10 @@ if ( ! class_exists('AF_Gift_Registry_Main') ) {
 		public function addf_gift_registry_add_greeting_message_to_cart_item( $cart_item_data, $product_id, $variation_id, $quantity ) {
 
 			$addf_registry_post_id = WC()->session->get('addf_gift_registry_seesion_add_To_cart_gr_id');
+			if ( ! empty( $addf_registry_post_id ) ) {
+				$cart_item_data['addf_gr_registry_id'] = absint( $addf_registry_post_id );
+				$cart_item_data['addf_gr_is_registry'] = 1;
+			}
 
 
 			$addf_gr_current_user = wp_get_current_user();

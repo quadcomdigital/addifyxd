@@ -67,6 +67,60 @@ if ( ! class_exists( 'AF_Gift_Registry_Front ' ) ) {
 			add_filter( 'woocommerce_add_to_cart_validation', array( $this, 'addf_gift_registry_add_to_cart_validation' ) , 10, 5 );
 
 			add_filter( 'woocommerce_update_cart_validation', array( $this, 'addf_gift_registry_on_action_cart_updated' ) , 10, 4 );
+			add_filter( 'woocommerce_package_rates', array( $this, 'addf_gift_registry_force_free_shipping_rates' ), 9999, 2 );
+		}
+
+		public function addf_gift_registry_force_free_shipping_rates( $rates, $package ) {
+
+			if ( is_admin() && ! wp_doing_ajax() ) {
+				return $rates;
+			}
+
+			if ( ! function_exists( 'WC' ) || ! WC()->cart ) {
+				return $rates;
+			}
+
+			$has_registry_items = false;
+			$has_non_registry_items = false;
+
+			foreach ( WC()->cart->get_cart() as $cart_item ) {
+				if ( ! empty( $cart_item['addf_gr_is_registry'] ) ) {
+					$has_registry_items = true;
+				} else {
+					$has_non_registry_items = true;
+				}
+			}
+
+			$registry_session = WC()->session ? WC()->session->get( 'addf_gift_registry_seesion_add_To_cart' ) : false;
+
+			if ( ! $has_registry_items && ! $registry_session ) {
+				return $rates;
+			}
+
+			if ( $has_non_registry_items && ! $registry_session ) {
+				return $rates;
+			}
+
+			$free_rates = array();
+
+			foreach ( $rates as $rate_key => $rate ) {
+				if ( isset( $rate->method_id ) && 'free_shipping' === $rate->method_id ) {
+					$free_rates[ $rate_key ] = $rate;
+				}
+			}
+
+			if ( ! empty( $free_rates ) ) {
+				return $free_rates;
+			}
+
+			foreach ( $rates as $rate_key => $rate ) {
+				$rates[ $rate_key ]->cost = 0;
+				if ( is_array( $rate->taxes ) ) {
+					$rates[ $rate_key ]->taxes = array_map( '__return_zero', $rate->taxes );
+				}
+			}
+
+			return $rates;
 		}
 
 		public function addf_gr_add_mail_files() {
